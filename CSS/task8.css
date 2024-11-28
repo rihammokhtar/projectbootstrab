@@ -1,0 +1,487 @@
+body {
+    overflow-x: hidden;
+}
+.container-fluid, .section1, .navbar, .progress-bar, .photo {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.section1{
+    
+    background-image:linear-gradient(to right , rgba(0, 0, 0, 0.629) 50% , rgba(0, 0, 0, 0.629) 50%), url(../imgs/bg.jpg);
+    background-position-y:center ;
+    background-position-x:center ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+h1{
+    font-size: 60px;
+}
+a{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.247);
+}i{
+    color: rgb(240, 237, 237);
+}}
+.navbar{
+    background-color: #080808b6;
+}
+.section1 h2::after{ 
+    content: '';
+    animation: typing 5s infinite;
+    font-weight: bold;
+}
+@keyframes typing {
+    0%{
+        content: 'D|';
+    }
+    2%{
+        content: 'De|';
+    }
+    4%{
+        content: 'Des|';
+    }
+    6%{
+        content: 'Desi|';
+    }
+    8%{
+        content: 'Desig|';
+    }
+10%{
+        content: 'Design|';
+    }
+    12%{
+        content: 'Designe|';
+    }
+    14%{
+        content: 'Designer|';
+    }
+    16%{
+        content: 'Designe|';
+    }
+    18%{
+        content: 'Design|';
+    }
+    20%{
+        content: 'Desig|';
+    }
+    22%{
+        content: 'Desi|';
+    }
+    24%{
+        content: 'Des|';
+    }
+    26%{
+        content: 'De|';
+    }
+    28%{
+        content: '|';
+    }
+    30%{
+        content: '|';
+    }
+    32%{
+        content: 'D|';
+    }
+    34%{
+        content: 'De|';
+    }
+    36%{
+        content: 'Dev|';
+    }
+    38%{
+        content: 'Deve|';
+    }
+    40%{
+        content: 'Devel|';
+    }
+    42%{
+        content: 'Develo|';
+    }
+    44%{
+        content: 'Develop|';
+    }
+    46%{
+        content: 'Develope|';
+    }
+    48%{
+        content: 'Develope|';
+    }
+    50%{
+        content: 'Developer|';
+    }
+    52%{
+        content: 'Develope|';
+    }
+    54%{
+        content: 'Develo|';
+    }
+    56%{
+        content: 'Devel|';
+    }
+    58%{
+        content: 'Deve|';
+    }
+    60%{
+        content: 'Deve|';
+    }
+    62%{
+        content: 'Dev|';
+    }
+    64%{
+        content: 'De|';
+    }
+    66%{
+        content: '|';
+    }
+    68%{
+        content: 'L|';
+    }
+    70%{
+        content: 'La|';
+    }
+    72%{
+        content: 'lar|';
+    }
+    74%{
+        content: 'larr|';
+    }
+    76%{
+        content: 'larry|';
+    }
+    78%{
+        content: 'larry|';
+    }
+    80%{
+        content: 'larry D|';
+    }
+    81%{
+        content: 'larry Da|';
+    }
+    82%{
+        content: 'larry Dan|';
+    }
+    83%{
+        content: 'larry Dani|';
+    }
+    84%{
+        content: 'larry Danie|';
+    }
+    85%{
+        content: 'larry Daniel|';
+    }
+86%{
+        content: 'larry Daniels|';
+    }
+    87%{
+        content: 'larry Danniel|';
+    }
+    88%{
+        content: 'larry Dannie|';
+    }
+    89%{
+        content: 'larry Danni|';
+    }
+    90%{
+        content: 'larry Dann|';
+    }
+    91%{
+        content: 'larry Dan|';
+    }
+    92%{
+        content: 'larry Da|';
+    }
+   93.5% {
+        content: 'larry D|';
+
+    }
+    94.5%{
+        content: 'larry |';
+
+    }
+    95.5%{
+        content: 'larr |';
+
+    }
+   96.5% {
+        content: 'lar |';
+
+    }
+    98%{
+        content: 'la |';
+
+    }
+    99%{
+        content: ' |';
+
+    }
+   100% {
+        content: ' |';
+
+    }
+    
+}
+/* a .active  { 
+    background-color: transparent !important;
+    position: relative;
+    transition: all 0.2s;
+}
+ a::after{
+    content: "";
+    height: 2px;
+    width: 10px;
+    position: absolute;
+    left: 0;
+    border: 2px solid #111;
+    bottom: 0;
+}
+.nav-link .active::after{
+    content: "";
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border: 2px solid #111;
+    bottom: 0;
+} */
+.section2{
+    .image{
+        border-bottom: 5px rgb(163, 41, 41);
+        
+    }
+    span,p{
+        color: gray;
+        
+    }
+}
+.progress{
+    height: 1.5rem;
+    margin-top: 30px;
+}
+.btn1{
+    margin-top: 30px;
+    color: white;
+    padding: 13px;
+    background-color: black;
+    border: 2px solid black;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid black;
+
+
+}
+.btn2{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid black;
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(253, 253, 253);
+color: white;
+}
+.section3{
+    background-color: #f7f7f7;
+h1{
+    border-bottom: 2px dotted rgba(128, 128, 128, 0.553);
+    width: fit-content;
+    font-size: 50px;
+    /* padding: 30px 0px; */
+}
+i{
+    border: 5px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+.col-md-4 :hover i{
+    background-color: black;
+    border: 5px solid #f7f7f7;
+color: aliceblue;
+}
+.col{
+    background-color: #f7f7f7
+}
+}
+.section4{
+    background-color: #ffffff;
+h1{
+    border-bottom: 2px dotted rgba(128, 128, 128, 0.553);
+    width: fit-content;
+    font-size: 50px;}
+    /* padding: 30px 0px; */
+    .div{
+    border-bottom: 2px dotted rgba(18, 5, 5, 0.553);
+        width:fit-content;
+        /* background-color:darkblue ; */
+    }
+.layer{
+
+top: 10px;
+right: 10px;
+bottom: 10px;
+left: 10px;
+background-color: #f7f7f7;
+opacity: 0;
+transition: all 0.6s;
+transform: translateY(1.7);
+
+}
+.content{
+    transform: scaleY(1);
+}
+
+.col-md-4:hover .layer{
+    opacity: 1;
+    
+}
+
+    i{
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+    i:hover{
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: hwb(0 100% 0%);
+        color: rgb(10, 10, 10);
+    }
+ul {
+    margin-bottom: 40px;
+    a{
+        font-weight: bold;
+    }
+    a .active{
+    text-decoration: underline;
+    }
+}
+
+    }
+    .section5{
+        background-color:#f7f7f7;
+    h1{
+        border-bottom: 2px dotted #615d5d;
+        width: fit-content;
+        font-size: 50px;}
+        /* padding: 30px 0px; */
+        .div{
+        border-bottom: 2px dotted rgba(75, 62, 62, 0.803);
+            width:fit-content;
+            /* background-color:darkblue ; */
+        }
+    .carousel-item {
+        /* padding: 10px; */
+        img{
+            border-radius: 50%;
+            width: 100px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .carousel-inner{
+background-color: #f7f7f7;
+    }
+p, span{
+    color: gray;
+}}
+
+.section7{
+    background-color:#f7f7f7;
+h1{
+    border-bottom: 2px dotted #615d5d;
+    width: fit-content;
+    font-size: 50px;}
+    /* padding: 30px 0px; */
+    .layer{
+
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        background-color: #f7f7f7;
+        opacity: 0;
+        transition: transform 0.5s ease;
+        transform-origin: center;
+        }
+        .col-md-4:hover .layer{
+            opacity: 0.9;
+            transform: rotateY(360deg);
+            
+        }
+        i{
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        i:hover{
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: hwb(0 100% 0%);
+            color: rgb(10, 10, 10);
+        }
+        .card-body{
+            background-color: #615d5d;
+            color: white;
+        }
+
+        .card img{
+            transition: all 0.4s ease 0s;
+        }
+        .card:hover img{
+transform: scale( 1.2);
+        }
+    }
+    .section8{
+        background-color:#fff;
+    h1{
+        border-bottom: 2px dotted #615d5d;
+        width: fit-content;
+        font-size: 50px;}
+        i:hover{
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: rgba(0, 0, 0, 0.919);
+            color: white;
+        }
+        i{
+            border-radius: 50%;
+            border: 1px solid #f7f7f7;
+            
+            background-color: #f7f7f7;
+            color: rgba(10, 10, 10, 0.803);
+            padding: 20px;
+                    }
+    h5{
+        padding-top: 10px;
+    }
+    p{
+        color: gray;
+    }
+
+    .btn{
+        background-color: black;
+        padding: 10px;
+        color: white;
+        width: 120px;
+        border: 1px solid black;
+    }
+    .btn:hover{
+        color: black;
+        background-color: white;
+    }
+    input,textarea{
+background-color: #f7f7f7;
+    }
+    }
+    footer{
+        background-color: black;
+        /* bottom: 0px; */
+    }
